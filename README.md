@@ -1,10 +1,12 @@
-# GoogleCloudPlatform
+# Google Cloud Platform — ACE Study Notes
 
-Andrew Brown's video - https://www.youtube.com/watch?v=OlAmyf8_4O4&t=546s
+Personal study notes for the **Google Cloud Associate Cloud Engineer** certification, following [Andrew Brown's 2025 course](https://www.youtube.com/watch?v=OlAmyf8_4O4&t=546s) on freeCodeCamp.
 
-Repo structure based on Youtube videos
+## Repository Structure
+
+```
 gcp-ace-notes/
-├── README.md                  # progress tracker + quick reference index
+├── README.md                       # progress tracker + quick reference index
 ├── 00-fundamentals/
 │   ├── cloud-concepts.md
 │   └── gcp-infrastructure.md
@@ -29,6 +31,22 @@ gcp-ace-notes/
 ├── 09-identity/
 │   └── cloud-identity.md
 ├── commands/
-│   └── gcloud-cheatsheet.md  # running list of CLI commands
+│   └── gcloud-cheatsheet.md        # running list of CLI commands
 └── exam-prep/
-    └── weak-areas.md          # running list of things to revisit
+    └── weak-areas.md               # running list of things to revisit
+```
+
+## Sections
+
+| # | Topic |
+|---|-------|
+| 00 | Fundamentals — cloud concepts & GCP infrastructure |
+| 01 | IAM — identity, access & resource setup |
+| 02 | Billing — configuration & cost management |
+| 03 | Compute — Compute Engine & GKE |
+| 04 | Networking — VPC, load balancers & DNS |
+| 05 | Storage & Databases |
+| 06 | Serverless — App Engine, Cloud Run & Cloud Functions |
+| 07 | Infrastructure as Code |
+| 08 | Operations — monitoring, logging & Compute Engine ops |
+| 09 | Cloud Identity & directory services |
